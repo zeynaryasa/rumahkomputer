@@ -1,0 +1,188 @@
+* {
+    text-decoration:none;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+.wrapper{
+    margin: auto;
+    width: 1200px;;
+    position: relative;
+}
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Courier;
+    float: left;
+    color: #0C1E7F;
+}
+.menu{
+    float: right;
+}
+nav{
+    width: 100%;
+    margin: auto;
+    display:flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 1;
+    border-bottom: 1px solid #0C1E7F;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+p{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px;
+}
+
+.kolom .deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Comic sans ms';
+    color:#0C1E7F ;
+}
+
+h2{
+    font-family: 'Comic sans ms';
+    font-weight: 800px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color:#0C1E7F ;
+    width: 100%;
+    line-height: 50px;
+}
+
+
+h3{
+    font-family: monospace;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #0C1E7F;
+    width: 90%;
+}
+h4{
+    font-family: 'Comic sans ms';
+    font-weight: bold;
+    font-size: 15px;
+    color: crimson;
+    width: 100%;
+    line-height: 50px;
+}
+
+.tengah{
+    text-align: center;
+    width: 100%;
+}
+
+h5{
+    font-family: 'Comic sans ms';
+    font-weight: 800px;
+    font-size: 20px;
+    margin-bottom: 0px;
+    color:#0C1E7F ;
+    width: 100%;
+    line-height: 50px;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.hardware-list{
+    width: 100%;
+    position:relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-hardware{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-hardware img{
+    width: 30%;
+}
+
+#about{
+   
+    background:green;
+    padding: 30px 0px 30px 0px;
+
+}
+
+.footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.footer-section{
+    width: 20%;
+    margin: 0 auto;
+
+}
+h6{
+    font-family: 'Comic sans ms';
+    font-weight: 500px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color:#0C1E7F ;
+    width: 100%;
+}
+
+#Copyright{
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+}
+.tab{
+        margin: 100px 100px 0px 100px;
+}
+.tab img{
+   width: 300px;
+}
+
+@media screen {
+    .wrapper{
+        width: 100%;
+    }
+}
